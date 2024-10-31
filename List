@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .section-header {
+            font-weight: bold;
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Items</h1>
+    <table>
+        <tr class="section-header">
+            <th>Qolsys</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Win/Door Contact</td>
+            <td>
+                <select name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>PIR</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Panel</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Smoke</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Shock Sensor</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Key Fob</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr class="section-header">
+            <th>Climax</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Win/Door Contact</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>PIR</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Panel</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Smoke</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Shock Sensor</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Key Fob</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr class="section-header">
+            <th>2GIG</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Item 5</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Item 6</td>
+            <td>
+                <select name="quantity">
+                    <!-- Same options as above -->
+                </select>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
